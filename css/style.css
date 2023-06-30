@@ -44,6 +44,19 @@ body main .active {
 body main .active h3 {
 	opacity: 1;
 	position: absolute;
-	bottom: 10px;
-	left: 10px;
+	bottom: 25px;
+	left: 25px;
 }
+
+
+@media (max-width: 480px) {
+	main {
+		width: 100vw;
+	}
+  
+	section:nth-of-type(4),
+	section:nth-of-type(5) {
+	  display: none;
+	}
+  }
+  
