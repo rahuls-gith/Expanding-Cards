@@ -32,23 +32,23 @@
   }
 
   body main section:nth-of-type(1) {
-	background: url('/images/pexels-anjana-c-674010.jpg') no-repeat center center /cover;
+	background: url('https://source.unsplash.com/RySPDa0FdcQ') no-repeat center center /cover;
   }
 
   body main section:nth-of-type(2) {
-	background: url('/images/pexels-m-venter-1659438.jpg') no-repeat center center /cover;
+	background: url('https://source.unsplash.com/nVGv6BLPjns') no-repeat center center /cover;
   }
 
   body main section:nth-of-type(3) {
-	background: url('/images/pexels-marianna-ole-757889.jpg') no-repeat center center /cover;
+	background: url('https://source.unsplash.com/lAHzPBi8KoI') no-repeat center center /cover;
   }
 
   body main section:nth-of-type(4) {
-	background: url('/images/pexels-pixabay-326212.jpg') no-repeat center center /cover;
+	background: url('https://source.unsplash.com/pxA3Y13sx40') no-repeat center center /cover;
   }
 
   body main section:nth-of-type(5) {
-	background: url('/images/pexels-tobias-bjørkli-1887624.jpg') no-repeat center center /cover;
+	background: url('https://source.unsplash.com/8mwXRlwXFSc') no-repeat center center /cover;
   }
 
   body main .active {
