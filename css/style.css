@@ -1,62 +1,61 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
-
 * {
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
-}
-
-body {
+  }
+  
+  body {
 	height: 100vh;
-	font-family: 'Mulish', sans-serif;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}
-
-main {
+  }
+  
+  body main {
 	display: flex;
 	height: 100vh;
 	width: 90vw;
 	justify-content: center;
 	align-items: center;
-}
-
-section {
+  }
+  
+  body main section {
 	height: 80vh;
-	background: url('https://source.unsplash.com/WLeWJW_WneE') no-repeat center /cover;
+	background: url("https://source.unsplash.com/WLeWJW_WneE") no-repeat center /
+	  cover;
 	color: #fff;
 	cursor: pointer;
 	border-radius: 25px;
 	position: relative;
 	flex: 1;
 	margin: 10px;
-}
-
-section h3 {
-	opacity: 0;
-}
-
-body main .active {
+  }
+  
+  body main .active {
 	flex: 10;
-}
-
-body main .active h3 {
-	opacity: 1;
+  }
+  
+  body main section h3 {
 	position: absolute;
 	bottom: 25px;
 	left: 25px;
-}
-
-
-@media (max-width: 480px) {
-	main {
-		width: 100vw;
-	}
-  
-	section:nth-of-type(4),
-	section:nth-of-type(5) {
-	  display: none;
-	}
+	color: #fff;
+	font-size: 24px;
+	opacity: 0;
   }
   
+  body main .active h3 {
+	opacity: 1;
+  }
+  
+
+  @media (max-width: 480px) {
+	body main {
+		width: 100vw;
+	}
+
+	body main section :nth-of-type(4),
+	body main section:nth-of-type(5) {
+		display: none;
+	}
+  }
