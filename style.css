@@ -3,14 +3,14 @@
 	padding: 0px;
 	box-sizing: border-box;
   }
-  
+
   body {
 	height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
   }
-  
+
   body main {
 	display: flex;
 	height: 100vh;
@@ -18,7 +18,7 @@
 	justify-content: center;
 	align-items: center;
   }
-  
+
   body main section {
 	height: 80vh;
 	background: url("https://source.unsplash.com/WLeWJW_WneE") no-repeat center /
@@ -30,12 +30,32 @@
 	flex: 1;
 	margin: 10px;
   }
-  
+
+  body main section:nth-of-type(1) {
+	background: url('/images/pexels-anjana-c-674010.jpg') no-repeat center center /cover;
+  }
+
+  body main section:nth-of-type(2) {
+	background: url('/images/pexels-m-venter-1659438.jpg') no-repeat center center /cover;
+  }
+
+  body main section:nth-of-type(3) {
+	background: url('/images/pexels-marianna-ole-757889.jpg') no-repeat center center /cover;
+  }
+
+  body main section:nth-of-type(4) {
+	background: url('/images/pexels-pixabay-326212.jpg') no-repeat center center /cover;
+  }
+
+  body main section:nth-of-type(5) {
+	background: url('/images/pexels-tobias-bjørkli-1887624.jpg') no-repeat center center /cover;
+  }
+
   body main .active {
 	flex: 10;
 	transition: flex 0.5s ease-in;
   }
-  
+
   body main section h3 {
 	position: absolute;
 	bottom: 25px;
@@ -44,12 +64,12 @@
 	font-size: 24px;
 	opacity: 0;
   }
-  
+
   body main .active h3 {
 	opacity: 1;
 	transition: opacity 0.5s ease-in 0.2s;
   }
-  
+
 
   @media (max-width: 480px) {
 	body main {
