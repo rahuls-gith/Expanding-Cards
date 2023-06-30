@@ -1,71 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
 
 * {
-	/* border: 1px yellow solid; */
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
 }
 
 body {
+	height: 100vh;
 	font-family: 'Mulish', sans-serif;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-body main #placeholder-1 {
-	background-color: red;
-}
-
-body main #placeholder-2 {
-	background-color: green;
-}
-
-body main #placeholder-3 {
-	background-color:aqua;
-}
-
-body main #placeholder-4 {
-	background-color: teal;
-}
-
-body main #placeholder-5 {
-	background-color: brown;
-}
-
-.container {
+main {
 	display: flex;
-	
 	height: 100vh;
 	width: 90vw;
-	
 	justify-content: center;
 	align-items: center;
-	
-	overflow: hidden;
 }
 
-.panel {
-	flex: 0.5;
+section {
 	height: 80vh;
-	background: url('../images/pexels-marianna-ole-757889.jpg') no-repeat center /cover;
-	color: #333;
+	background: url('https://source.unsplash.com/WLeWJW_WneE') no-repeat center /cover;
+	color: #fff;
 	cursor: pointer;
 	border-radius: 25px;
-	margin: 10px;
 	position: relative;
+	flex: 1;
+	margin: 10px;
 }
 
-.panel h3 {
+section h3 {
 	opacity: 0;
 }
 
-.panel.active {
-	flex: 5;
+body main .active {
+	flex: 10;
 }
 
-.panel.active h3 {
+body main .active h3 {
 	opacity: 1;
 	position: absolute;
 	bottom: 10px;
